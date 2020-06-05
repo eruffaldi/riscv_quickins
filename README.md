@@ -1,10 +1,19 @@
 
-# Making Instructions
+# Objective
 
-int add and float add
+Add instructions to RISCV without going through compiler change
+
+Demo: add and fadd
 
 
 # Usage
+
+Assuming all setup done
+
+	make
+	temu buildroot-riscv64.cfg
+	mount -t 9p /dev/root /mnt
+	/mnt/test1	
 
 ## macOS
 
